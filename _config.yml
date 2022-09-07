@@ -103,6 +103,6 @@ theme: arknights
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:lxl1234567/Blog.git
+  repo: git@github.com:lxl1234567/Blog.github.io.git
   branch: master
   message: updated
