@@ -201,7 +201,7 @@
           ) {
             try {
               document.activeElement.blur();
-            } catch (e) {} // eslint-disable-line no-empty
+            } catch (e) { } // eslint-disable-line no-empty
           }
 
           this.switchSelectors(this.options.selectors, tmpEl, document, options);
@@ -1212,7 +1212,7 @@
       };
 
     }, {}], 21: [function (require, module, exports) {
-      module.exports = function () {};
+      module.exports = function () { };
 
     }, {}], 22: [function (require, module, exports) {
       module.exports = function (uri, key, value) {
